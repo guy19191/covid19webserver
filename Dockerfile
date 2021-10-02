@@ -1,5 +1,4 @@
 FROM node:14
-WORKDIR /Users/guymanor/WebstormProjects/covid19webserver
 COPY package*.json ./
 RUN npm install
 COPY . .
