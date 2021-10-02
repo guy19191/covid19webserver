@@ -1,7 +1,7 @@
 const express = require('express')
 const {getCovidInfoToday, getCovidInfoHistory,covidCompare,covidDeaths} = require('./covidApis')
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerJson = require('./swagger')
