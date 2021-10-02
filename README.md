@@ -17,7 +17,7 @@ docker run -d -p 8080:8080 <Project Name>
 http://127.0.0.1:8080/api-docs
 
 APIS:
-- `/daily/{country}` Gets the daily covid19 states of the country
-- `/byDate/{country}/{date}` Gets the covid19 states of the country by date
-- `/compare/{country1}/{country2}/{date1}/{date2}` compare in presentage the cases of both countries
-- `/deaths/{counties}/{dates}` Gets the daily covid19 states of the country
+- `/daily/{country}` Gets the daily covid19 states of the country.
+- `/byDate/{country}/{date}` Gets the covid19 states of the country by date.
+- `/compare/{country1}/{country2}/{date1}/{date2}` Compare in presentage the cases of both countries.
+- `/deaths/{counties}/{dates}` Get the death each day of the folowing countries between dates.
